@@ -1,0 +1,7 @@
+.git*
+.vscode
+test
+.venv
+__pycache__
+*.pyc
+WINDOWS_PYCHARM_GUIDE.md
