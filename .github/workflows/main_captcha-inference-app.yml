@@ -80,4 +80,7 @@ jobs:
           app-name: 'captcha-inference-app'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
+          # 아래 두 줄을 추가하여 원격 빌드를 활성화합니다.
+          scm-do-build-during-deployment: true
+          enable-oryx-build: true
           
